@@ -2,7 +2,7 @@
 **Authors**: Ali CHERIFI ALAOUI, Fodié NIAKATE  
 
 ## Overview  
-This project leverages cutting-edge **Large Language Models (LLMs)** and **Prompt Engineering** to analyze LinkedIn profiles, suggest tailored job opportunities, and provide salary benchmarks. It integrates OpenAI's GPT-4 and external APIs to automate career insights and job recommendations.  
+This project leverages cutting-edge **Large Language Models (LLMs)** and **Prompt Engineering** to analyze LinkedIn profiles, suggest tailored job opportunities, and provide salary benchmarks. It integrates OpenAI's GPT-4 and APIs from **RapidAPI** to automate career insights and job recommendations.  
 
 ---
 
@@ -16,25 +16,25 @@ This project leverages cutting-edge **Large Language Models (LLMs)** and **Promp
 ---
 
 ## Features  
-- **LinkedIn Profile Analysis**: Extracts and processes LinkedIn profile data.  
+- **LinkedIn Profile Analysis**: Extracts and processes LinkedIn profile data using RapidAPI.  
 - **Job Suggestions**: Uses GPT-4 and prompt engineering to recommend job titles, keywords, and career advice.  
-- **Job Matching**: Finds relevant job postings via external job search APIs (e.g., LinkedIn, Glassdoor, Indeed).  
-- **Salary Insights**: Provides salary benchmarks based on job title, location, and industry trends.  
+- **Job Matching**: Finds relevant job postings via job search APIs (LinkedIn, Glassdoor, Indeed, via RapidAPI).  
+- **Salary Insights**: Provides salary benchmarks using Glassdoor Salary API (via RapidAPI).  
 
 ---
 
 ## How It Works  
 1. **Scraping LinkedIn Profiles**  
-   - Scrapes LinkedIn profile data using an API to extract career-related insights.  
+   - Scrapes LinkedIn profile data using RapidAPI to extract career-related insights.  
 
 2. **LLM-Based Analysis**  
    - Processes data with OpenAI GPT-4 to generate actionable career recommendations (e.g., job titles, keywords).  
 
 3. **Job Matching**  
-   - Searches job portals for relevant positions matching the suggested job titles and keywords.  
+   - Searches job portals (via RapidAPI) for relevant positions matching the suggested job titles and keywords.  
 
 4. **Salary Estimation**  
-   - Uses Glassdoor's Salary API to provide median, minimum, and maximum salary data for selected jobs.  
+   - Uses the Glassdoor Salary API (via RapidAPI) to provide median, minimum, and maximum salary data for selected jobs.  
 
 ---
 
@@ -44,9 +44,9 @@ This project leverages cutting-edge **Large Language Models (LLMs)** and **Promp
 - Python 3.8 or higher  
 - API Keys:  
   - OpenAI API Key  
-  - LinkedIn API Key  
-  - Job Search API Key  
-  - Glassdoor Salary API Key  
+  - LinkedIn API Key (via RapidAPI)  
+  - Job Search API Key (via RapidAPI)  
+  - Glassdoor Salary API Key (via RapidAPI)  
 
 ### Installation  
 1. Clone the repository:  
