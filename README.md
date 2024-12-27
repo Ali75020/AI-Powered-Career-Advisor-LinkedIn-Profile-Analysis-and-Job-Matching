@@ -9,9 +9,8 @@ This project leverages cutting-edge **Large Language Models (LLMs)** and **Promp
 ## Table of Contents  
 1. [Features](#features)  
 2. [How It Works](#how-it-works)  
-3. [Setup Instructions](#setup-instructions)  
-4. [Project Structure](#project-structure)  
-5. [Future Enhancements](#future-enhancements)  
+3. [Project Structure](#project-structure)  
+4. [Future Enhancements](#future-enhancements)  
 
 ---
 
@@ -38,18 +37,27 @@ This project leverages cutting-edge **Large Language Models (LLMs)** and **Promp
 
 ---
 
-## Setup Instructions  
+## Project Structure  
+- **linkedin_scraper.py**: Module for scraping LinkedIn profile data via RapidAPI.  
+- **profile_analysis.py**: Implements GPT-4 prompt engineering for analysis.  
+- **job_search.py**: Integrates job search APIs (via RapidAPI) to find matching job postings.  
+- **salary_insights.py**: Fetches salary benchmarks using Glassdoor's Salary API (via RapidAPI).  
+- **utils/**: Helper functions and utilities.  
 
-### Prerequisites  
-- Python 3.8 or higher  
-- API Keys:  
-  - OpenAI API Key  
-  - LinkedIn API Key (via RapidAPI)  
-  - Job Search API Key (via RapidAPI)  
-  - Glassdoor Salary API Key (via RapidAPI)  
+---
 
-### Installation  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-repo-link/ai-powered-career-advisor.git
-   cd ai-powered-career-advisor
+## Future Enhancements  
+- Expand to include other professional platforms (e.g., GitHub, Behance).  
+- Add support for more salary APIs to improve data reliability.  
+- Build a web interface for non-technical users.  
+
+---
+
+## Authors  
+- **Ali CHERIFI ALAOUI**  
+- **Fodié NIAKATE**  
+
+---
+
+## License  
+This repository is intended to demonstrate technical proficiency in AI and prompt engineering. It is shared for professional review only and is not intended for replication or commercial use.  
