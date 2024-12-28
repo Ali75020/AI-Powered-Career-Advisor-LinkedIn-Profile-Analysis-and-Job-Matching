@@ -62,12 +62,26 @@ This project leverages **Large Language Models (LLMs)**, specifically OpenAI’s
 
 ### Installation and Execution
 
-1. Install the required libraries:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ali75020/AI-Powered-Career-Advisor-LinkedIn-Profile-Analysis-and-Job-Matching.git
+   ```
+   Or use:
+   ```bash
+   gh repo clone Ali75020/AI-Powered-Career-Advisor-LinkedIn-Profile-Analysis-and-Job-Matching
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd AI-Powered-Career-Advisor-LinkedIn-Profile-Analysis-and-Job-Matching
+   ```
+
+3. Install the required libraries:
    ```bash
    pip install openai requests pandas
    ```
 
-2. Set your API keys as environment variables:
+4. Set your API keys as environment variables:
    ```bash
    export OPENAI_API_KEY=<your_openai_api_key>
    export LINKEDIN_API_KEY=<your_linkedin_api_key>
@@ -75,14 +89,13 @@ This project leverages **Large Language Models (LLMs)**, specifically OpenAI’s
    export SALARY_API_KEY=<your_salary_api_key>
    ```
 
-3. Run the notebook:
+5. Run the notebook:
    - Open and execute `[Final_Version]_AI_Powered_Career_Advisor.ipynb` using Jupyter Notebook or Google Colab.
 
 ---
 
 ## Future Enhancements
 
-- Expand compatibility with other professional platforms (e.g., GitHub, Behance).
 - Integrate additional salary APIs to improve accuracy and reliability of benchmarks.
 - Add a user-friendly web interface for non-technical users.
 
